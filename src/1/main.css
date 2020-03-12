@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+.header {
+    display: flex;
+}
+.header__left {
+    width: 50%;
+    background: #f3f3f3;
+}
+.header__left--inner {
+    font-family: 'Noto Serif JP', serif;
+    background: #ffb21a;
+    color :#efefef;
+    padding: 16px 24px 16px;
+    text-align: center;
+    font-size: 2.2em;
+    font-style: italic;
+    position: relative;
+    right: -80px;
+    top: 40%;
+
+}
+.header__left--sub {
+    font-size: 1.4rem;
+}
+.header__right {
+    width: 50%;
+    min-height: 400px;
+    background: url('apples-close-up-delicious-diet-209339.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.section1__left {
+    border-right: #f03843 3px solid;
+    width: 50%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1__left--sub {
+    text-align: center;
+    font-size: 2.0em;
+}
+.section1__right {
+    width: 50%;
+    padding: 4px 20px;
+    box-sizing: border-box;
+}
+
+.section2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.section2__left {
+    background: #e0676c;
+    width: 50%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2__left--sub {
+    text-align: center;
+    font-size: 2.0em;
+    color: #efefef;
+}
+.section2__right {
+    width: 50%;
+    padding: 4px 20px;
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    padding: 8px 0;
+}
+.profile__icon img {
+    max-width: 60px;
+    border: 2px solid #e0676c;
+    border-radius: 50%;
+}
+.profile__text {
+    padding-left: 10px;
+    flex-grow: 2;
+}
+
+.section3 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.section3__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3__left--sub {
+    text-align: center;
+    font-size: 2.0em;
+    color: #ab292e;
+}
+.section3__right {
+    width: 50%;
+    min-height: 100px;
+    background: #e0676c;
+    padding: 4px 20px;
+    box-sizing: border-box;
+    color: #efefef;
+
+}
+
+.voice {
+    margin: 1em 0;
+}
+.voice__info {
+    float: right;
+}
+
+.section4 {
+    font-family: 'Noto Serif JP', serif;
+    background: #e0676c;
+    color: #efefef;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    width: 40%;
+    margin: 60px auto;
+}
+.section4 form {
+}
+.section4 .wrap {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.section4 .wrap__child {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 4px 0;
+}
+
+.section4 .submit {
+    width: 150px;
+}
+
+.footer {
+    background: #e0676c;
+    color: #efefef;
+    text-align: center;
+    margin-top: 60px;
+    padding: 8px 0;
+}
+
+@media only screen and (max-width: 450px) {
+    .header__left {
+        width: 0;
+    }
+    .header__right {
+        width: 100%;
+    }
+    .header__left--inner {
+        left: 18%;
+        width: 50%;
+        position: absolute;
+        right: 0;
+    }
+    .section1 {
+        flex-wrap: wrap;
+    }
+    .section1__left {
+        width: 100%;
+        border-right-width: 0;
+    }
+    .section1__right {
+        width: 100%;
+    }
+    .section2 {
+        flex-wrap: wrap;
+    }
+    .section2__left {
+        width: 100%;
+        min-height: 100px;
+    }
+    .section2__right {
+        width: 100%;
+    }
+    .section3 {
+        flex-wrap: wrap;
+    }
+    .section3__left {
+        width: 100%;
+        min-height: 100px;
+        background: #e0676c;
+    }
+    .section3__left--sub {
+        color: #fff;
+    }
+    .section3__right {
+        width: 100%;
+        background: #fff;
+        color: #e0676c;
+    }
+    .section4 {
+        width: 100%;
+    }
+}

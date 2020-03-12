@@ -1,0 +1,30 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.6
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: password
+      TZ: 'Asia/Tokyo'
+    volumes:
+      - mydb:/var/lib/mysql
+      - ./docker/mysql/conf/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./docker/mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    ports:
+      - "23306:3306"
+  app:
+    build: docker/php/.
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "20080:80"
+      - "20443:443"
+    links:
+      - mysql
+    environment:
+      DB_HOST: mysql
+volumes:
+  mydb:
+    driver: local
