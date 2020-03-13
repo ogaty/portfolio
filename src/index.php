@@ -64,7 +64,7 @@
     </div>
     <div class="description">
         LP作成、システム作成の依頼は気軽に受け付けております。<br>
-        <a href="https://ogatism.jp/biz">詳細はこちらまで。</a>
+        <a href="https://ogatism.jp/fixed/biz">詳細はこちらまで。</a>
     </div>
 </body>
 </html>
