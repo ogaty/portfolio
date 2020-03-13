@@ -37,7 +37,8 @@
     <h1>LandingPageサンプル集</h1>
     <div class="description">
         適当なテンプレートをHTMLに起こしてみました。<br>
-        すべてレスポンシブ対応です。
+        すべてレスポンシブ対応です。<br>
+        <a href="https://github.com/ogaty/portfolio">https://github.com/ogaty/portfolio</a>
     </div>
     <div class="wrap">
         <div class="wrap__child">
