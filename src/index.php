@@ -13,6 +13,7 @@
         .wrap {
             display: flex;
             margin: 40px;
+            flex-wrap: wrap;
         }
         .wrap__child {
             width: 30%;
@@ -29,6 +30,9 @@
             }
             .description {
                 font-size: 0.8rem;
+            }
+            .wrap__child {
+                width: 100%;
             }
         }
     </style>
