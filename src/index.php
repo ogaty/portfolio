@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <h1>LandingPageサンプル集</h1>
+    <h1>Portfolio</h1>
     <div class="description">
         適当なテンプレートをHTMLに起こしてみました。<br>
         すべてレスポンシブ対応です。<br>

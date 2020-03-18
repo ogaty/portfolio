@@ -54,6 +54,10 @@ header nav {
     text-shadow: 0 0 1px transparent;
 }
 
+.hamburger {
+    display: none;
+}
+
 .main {
     background-image: url('menu-restaurant-vintage-table.jpg');
     position: relative;
@@ -103,6 +107,7 @@ header nav {
     width: 80%;
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 .section2__info {
     font-size: 24px;
@@ -125,6 +130,7 @@ header nav {
     display: flex;
     width: 80%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 .section3__inner {
     width: 33%;
@@ -174,3 +180,41 @@ header nav {
 #gallery {
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 700px) {
+    header nav {
+        right: 0;
+    }
+    .header__nav {
+        position: absolute;
+        right: 0;
+        display: none;
+        top: 40px;
+        background: #333317;
+        padding-left: 0;
+    }
+    .hamburger {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        color: #fff;
+        font-size: 1.4em;
+        cursor: pointer;
+    }
+    .section2__left {
+        width: 100%;
+    }
+    .section2__right {
+        width: 100%;
+    }
+
+    .header__nav li {
+        width: 100%;
+
+    }
+    .section3__inner {
+        width: 100%;
+    }
+}
+
