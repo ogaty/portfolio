@@ -61,6 +61,14 @@
                 </a>
             </div>
         </div>
+        <div class="wrap__child">
+            <a href="/3/index.html"><img src="/3/lp3.jpg" alt="1" class="lp"></a><br>
+            <div class="caption">
+                <a href="/3/index.html">
+                    LP 3
+                </a>
+            </div>
+        </div>
     </div>
     <div class="description">
         LP作成、システム作成の依頼は気軽に受け付けております。<br>
