@@ -38,6 +38,7 @@ h3 {
 
 .section1 {
     width: 90%;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -47,6 +48,7 @@ h3 {
 .section1__left {
     border-right: #f03843 3px solid;
     width: 50%;
+    height: 100vh;
     min-height: 100px;
     display: flex;
     flex-direction: column;
@@ -59,12 +61,14 @@ h3 {
 }
 .section1__right {
     width: 50%;
+    height: 100vh;
     padding: 4px 20px;
     box-sizing: border-box;
 }
 
 .section2 {
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -74,6 +78,7 @@ h3 {
 .section2__left {
     background: #e0676c;
     width: 50%;
+    height: 100vh;
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -107,6 +112,7 @@ h3 {
 
 .section3 {
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -127,16 +133,24 @@ h3 {
 }
 .section3__right {
     width: 50%;
+    height: 100vh;
     min-height: 100px;
     background: #e0676c;
     padding: 4px 20px;
     box-sizing: border-box;
     color: #efefef;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3__right--sub {
+    width: 80%;
 }
 
 .voice {
-    margin: 1em 0;
+    margin: 2em 0;
+    border-bottom: 1px solid #f0f0f0;
 }
 .voice__info {
     float: right;
